@@ -1,7 +1,11 @@
 # General_Image_Classify_Model
 
+主要参考文献：
+* [keras官方api](https://keras.io/applications/#inceptionresnetv2)
+* [使用非常少的数据构建强大的图像分类模型](https://github.com/ictar/python-doc/blob/master/Machine%20Learning/%E4%BD%BF%E7%94%A8%E9%9D%9E%E5%B8%B8%E5%B0%91%E7%9A%84%E6%95%B0%E6%8D%AE%E6%9E%84%E5%BB%BA%E5%BC%BA%E5%A4%A7%E7%9A%84%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B.md)
+
 * Purpose
-  这份代码是为了复用而创建的，因为我发现如果用keras的这个框架去运用imagenet上预训练好的模型是很简单的，并且重复代码多。另外设置成这个目录结构就可以在各种不同的图像分类比赛中作出baseline。
+  * 这份代码是为了复用而创建的，因为我发现如果用keras的这个框架去运用imagenet上预训练好的模型是很简单的，并且重复代码多。另外设置成这个目录结构就可以在各种不同的图像分类比赛中作出baseline。
   
 * 目录结构
   * code : 存放我用jupyter测试后能用的代码，功能从文件名就可以看出来（gap_train.py和pretrain.py是例外这两个是一套的，先执行pretrain会获得预训练好的特征，然后在gap_train里通过融合。这是[使用非常少的数据构建强大的图像分类模型](https://github.com/ictar/python-doc/blob/master/Machine%20Learning/%E4%BD%BF%E7%94%A8%E9%9D%9E%E5%B8%B8%E5%B0%91%E7%9A%84%E6%95%B0%E6%8D%AE%E6%9E%84%E5%BB%BA%E5%BC%BA%E5%A4%A7%E7%9A%84%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B.md)里的代码稍加修改，具体内容可看这篇）
