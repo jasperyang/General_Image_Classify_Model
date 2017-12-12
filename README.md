@@ -17,7 +17,7 @@
   * *.ipynb : 这些是我做测试的jupyter文件，没有删，因为有些代码还是能复用。
   
 * 代码说明（由于这是一份基于猪脸识别比赛做的简单代码，所以里面分类是30类，如果要用于别的更多的类别需自行改动）
-  * flood_algorithm.py : 对图片使用漫水算法，用于找相似区域
+  * flood_algorithm.py : 对图片使用漫水算法，用于找相似区域
   * inception_V4_train.py : 利用inceptionRestnetV2训练,并且有fine-tune,可在代码里修改参数
   * load_and_train_V4.py : 利用之前训练过的模型参数继续训练，修改代码里的参数就可以用于不同的模型
   * inceptionV3_train.py : 利用inceptionV3训练,并且有fine-tune,可在代码里修改参数
